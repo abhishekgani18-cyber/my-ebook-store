@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- ಇಲ್ಲಿ ನಿಮ್ಮ ಫೇಸ್‌ಬುಕ್ ಪಿಕ್ಸೆಲ್ ಕೋಡ್ ಮುಂಚಿನಂತೆಯೇ ಇರಲಿ -->
+    <!-- Meta Pixel Code -->
     <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      ... (ನಿಮ್ಮ ಫೇಸ್‌ಬುಕ್‌ನ ಅಸಲಿ ಪಿಕ್ಸೆಲ್ ಕೋಡ್ ಇಲ್ಲೇ ಇರಲಿ) ...
-      fbq('track', 'PageView');
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e);
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://facebook.net');
+    fbq('init', '1087435697394570');
+    fbq('track', 'PageView');
     </script>
+    <!-- End Meta Pixel Code -->
     
-    <!-- ಆಟೋಮ್ಯಾಟಿಕ್ ಆಗಿ ಸೂಪರ್‌ಪ್ರೊಫೈಲ್‌ಗೆ ಕಳುಹಿಸುವ ರಿಡೈರೆಕ್ಟ್ ಕೋಡ್ (ಕೆಳಗೆ ನೋಡಿ) -->
+    <!-- Automatic Redirect to Superprofile -->
     <script>
         setTimeout(function() {
             window.location.href = "https://superprofile.bio/vp/chatgpt---ai-skills-for-beginners-–-learn-ai-easily-for-just-₹99";
-        }, 500); // 0.5 ಸೆಕೆಂಡ್‌ನಲ್ಲಿ ರಿಡೈರೆಕ್ಟ್ ಆಗುತ್ತದೆ
+        }, 300); 
     </script>
 </head>
 <body>
